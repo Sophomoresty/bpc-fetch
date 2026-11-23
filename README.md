@@ -80,6 +80,12 @@ bpc-fetch.exe install-browser
 bpc-fetch.exe doctor
 ```
 
+### Using Monid (optional)
+
+Set `MONID_API_KEY` to use Search1API through Monid for keyword searches in
+`bpc-fetch search` and in `bpc-fetch crawl` when no sites are specified.
+See the [Monid docs](https://docs.monid.ai).
+
 ## Usage
 
 ```bash
